@@ -5,6 +5,11 @@ $(function ()
    $('#clickMeForSomething').click(function(){
         console.log("Something happened");
     });
+
+  $('#selectValue').change(function(){
+    console.log( "selectValue: " + $('#selectValue').val() );
+  });
+
 });
 
 console.log( "mySite.js loaded" );
