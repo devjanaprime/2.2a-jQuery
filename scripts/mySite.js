@@ -3,11 +3,16 @@ $(function ()
 {
    // after the "#" is the id of the object on which we can click
    $('#clickMeForSomething').click(function(){
-        console.log("Something happened");
+     currentUpdate = $('#containerName').val() + " is " + $('#selectFill').val() + " full of it's " + $('#selectCapacity').val() + " capacity.";
+     console.log( currentUpdate );
     });
 
-  $('#selectValue').change(function(){
-    console.log( "selectValue: " + $('#selectValue').val() );
+  $('#selectCapacity').change(function(){
+    console.log( "selectCapacity: " + $('#selectCapacity').val() );
+  });
+
+  $('#selectFill').change(function(){
+    console.log( "selectFill: " + $('#selectFill').val() );
   });
 
 });
