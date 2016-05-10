@@ -7,7 +7,7 @@ $(function ()
   // after the "#" is the id of the object on which we can click
   $('#clickMeForSomething').click(function(){
     if( $('#containerName').val() == '' ){
-     $('#containerName').fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
+     $('#containerName').fadeOut(100).fadeIn(100).fadeOut(100).fadeIn(100);
      }
      else{
       // oncrement counter
