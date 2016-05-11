@@ -124,7 +124,6 @@ $('#selectFill').change(function(){
 totalText = $('#textIn').val() + " is " + $('#selectFill').val() + " full of it's " + $('#selectCapacity').val() + " capacity.";
 
 /// run now to show functionality and debug
-
 // have the students lead you through calculating the percent, actual fill amount, and adding a selector for what is in the container on click
 
 ///////////////////// VER 0.4 //////////////////////
